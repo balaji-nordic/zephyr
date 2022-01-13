@@ -5,6 +5,14 @@ include: base.yaml
 bus: uart
 
 properties:
+    tx-pin:
+      type: int
+      required: false
+      description: asa
+    rx-pin:
+      type: int
+      required: false
+      description: asa
     clock-frequency:
       type: int
       required: false

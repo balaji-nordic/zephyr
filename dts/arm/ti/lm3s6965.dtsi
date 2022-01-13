@@ -54,6 +54,8 @@
 			reg = <0x4000d000 0x4c>;
 			clocks = <&sysclk>;
 			interrupts = <6 3>;
+			tx-pin = <1>;
+			rx-pin = <2>;
 			status = "disabled";
 			label = "UART_1";
 		};
